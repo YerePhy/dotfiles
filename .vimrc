@@ -43,11 +43,9 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up>    :echoe "Use k"<CR>
 nnoremap <Down>  :echoe "Use j"<CR>
 
-" set CtrlP runtime path 
+" CtrlP
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-
-" open CtrlP with Ctrl+p
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
-
+let g:ctrlp_show_hidden = 1
 

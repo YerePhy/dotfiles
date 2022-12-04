@@ -12,7 +12,7 @@ set number relativenumber
 " Turn on syntax highlighting.
 syntax on
 
-"Python Settings
+" Python Settings
 autocmd FileType python set softtabstop=4
 autocmd FileType python set tabstop=4
 autocmd FileType python set autoindent
@@ -42,6 +42,9 @@ nnoremap <Left>  :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up>    :echoe "Use k"<CR>
 nnoremap <Down>  :echoe "Use j"<CR>
+
+" set CtrlP runtime path 
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " open CtrlP with Ctrl+p
 let g:ctrlp_map = '<c-p>'

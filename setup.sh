@@ -35,6 +35,7 @@ rm ./conda.sh
 eval "$(~/miniconda/bin/conda shell.bash hook)"
 $HOME/miniconda/bin/conda init
 source ~/.bashrc
+conda init
 
 # Install Teams
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -

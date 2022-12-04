@@ -7,7 +7,7 @@ do
     export SRC=$(readlink -f ./$dfile)
     export DEST="$HOME"/$dfile 
 
-    if ! [ -L $DEST ] ; then
-        ln -s $SRC $DEST
-    fi
+    rm -f $DEST
+    ln -s $SRC $DEST
 done
+

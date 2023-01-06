@@ -6,6 +6,9 @@ set expandtab
 set smartindent
 set shiftwidth=4
 
+" Avoid problems when pasting from clipboard (auto-indent)
+set pastetoggle=<F2>
+
 " Line numbers
 set number relativenumber
 

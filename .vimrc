@@ -12,8 +12,10 @@ set pastetoggle=<F2>
 " Line numbers
 set number relativenumber
 
-" Turn on syntax highlighting.
+" Highlighting settings
+set hlsearch
 syntax on
+nnoremap <Leader><space> :noh<cr>
 
 " Python Settings
 autocmd FileType python set softtabstop=4

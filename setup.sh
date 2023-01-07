@@ -9,12 +9,13 @@ apt-get update
 apt-get install -y \
 	sudo \
 	git-all \
-       	tmux \
+    tmux \
 	curl \
 	htop \
 	drawing \
 	xsel \
-	vim 
+	vim \
+    htop
 apt-get install -f -y
 
 # Install ctrlp.vim

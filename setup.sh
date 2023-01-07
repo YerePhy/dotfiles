@@ -15,7 +15,8 @@ apt-get install -y \
 	drawing \
 	xsel \
 	vim \
-    htop
+    htop \
+    flake8
 apt-get install -f -y
 
 # Install ctrlp.vim

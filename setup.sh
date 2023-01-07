@@ -16,7 +16,8 @@ apt-get install -y \
 	xsel \
 	vim \
     htop \
-    flake8
+    flake8 \
+    shellcheck
 apt-get install -f -y
 
 # Install ctrlp.vim

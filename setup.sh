@@ -21,6 +21,12 @@ apt-get install -f -y
 mkdir ~/.vim
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim 
 
+# Install vim-fugitive
+mkdir -p ~/.vim/pack/tpope/start
+cd ~/.vim/pack/tpope/start
+git clone https://tpope.io/vim/fugitive.git
+vim -u NONE -c "helptags fugitive/doc" -c 
+
 # Install python3.9 
 apt-get install -y software-properties-common 
 add-apt-repository ppa:deadsnakes/ppa

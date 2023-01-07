@@ -30,6 +30,10 @@ cd ~/.vim/pack/tpope/start
 git clone https://tpope.io/vim/fugitive.git
 vim -u NONE -c "helptags fugitive/doc" -c 
 
+# Install ale (vim linting)
+mkdir -p ~/.vim/pack/git-plugins/start
+git clone --depth 1 https://github.com/dense-analysis/ale.git ~/.vim/pack/git-plugins/start/ale
+
 # Install python3.9 
 apt-get install -y software-properties-common 
 add-apt-repository ppa:deadsnakes/ppa
